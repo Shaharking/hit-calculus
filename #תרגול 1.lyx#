@@ -597,7 +597,15 @@ lim_{n\rightarrow\infty}\frac{\sqrt{n+4}-\sqrt{n+1}}{\sqrt{n}}=lim_{n\rightarrow
 \begin_layout Enumerate
 \begin_inset Formula 
 \[
-lim_{n\rightarrow\infty}n\left[\left(27+\frac{1}{n}\right)^{\frac{1}{3}}-3\right]=lim_{n\rightarrow\infty}n\left[3\left(1+\frac{1}{27n}\right)^{\frac{1}{3}}-3\right]=lim_{n\rightarrow\infty}3n\left[1+\frac{1}{3}\cdot\frac{1}{27n}+O\left(\frac{1}{n^{2}}\right)-1\right]=lim_{n\rightarrow\infty}3n\left(\frac{1}{3}\cdot\frac{1}{27n}+O\left(\frac{1}{n^{2}}\right)\right)=\frac{1}{27}
+lim_{n\rightarrow\infty}n\left[\left(27+\frac{1}{n}\right)^{\frac{1}{3}}-3\right]=lim_{n\rightarrow\infty}n\left[3\left(1+\frac{1}{27n}\right)^{\frac{1}{3}}-3\right]=lim_{n\rightarrow\infty}3n\left[1+\frac{1}{3}\cdot\frac{1}{27n}+O\left(\frac{1}{n^{2}}\right)-1\right]=
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+==lim_{n\rightarrow\infty}3n\left(\frac{1}{3}\cdot\frac{1}{27n}+O\left(\frac{1}{n^{2}}\right)\right)=\frac{1}{27}
 \]
 
 \end_inset
@@ -644,7 +652,15 @@ lim_{n\rightarrow\infty}\left(\frac{1+3+5....+(2n+1)}{n+1}-\frac{2n+1}{2}\right)
 
 \begin_inset Formula 
 \[
-=lim_{n\rightarrow\infty}\frac{1}{n+1}\left(\frac{n\left(2+(n-1)2\right)}{2}\right)-\frac{2n+1}{2}=lim_{n\rightarrow\infty}\frac{n^{2}}{n+1}-\frac{2n+1}{2}=lim_{n\rightarrow\infty}\frac{2n^{2}-(2n+1)(n+1)}{2(n+1)}=lim_{n\rightarrow\infty}\frac{-3n-1}{2n+2}=-\frac{3}{2}
+=lim_{n\rightarrow\infty}\frac{1}{n+1}\left(\frac{n\left(2+(n-1)2\right)}{2}\right)-\frac{2n+1}{2}=lim_{n\rightarrow\infty}\frac{n^{2}}{n+1}-\frac{2n+1}{2}=
+\]
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+=lim_{n\rightarrow\infty}\frac{2n^{2}-(2n+1)(n+1)}{2(n+1)}=lim_{n\rightarrow\infty}\frac{-3n-1}{2n+2}=-\frac{3}{2}
 \]
 
 \end_inset
@@ -663,7 +679,15 @@ lim_{n\rightarrow\infty}\left[\frac{7}{10}+\frac{29}{100}+...+\frac{5^{n}+2^{n}}
 
 \begin_inset Formula 
 \[
-=lim_{n\rightarrow\infty}\left[\left(\frac{1}{2}+...+\frac{1}{2^{n}}\right)+\left(\frac{1}{5}+....+\frac{1}{5^{n}}\right)\right]=lim_{n\rightarrow\infty}\left(\frac{\frac{1}{2}\left(\frac{1}{2}^{n}-1\right)}{\frac{1}{2}-1}\right)+\left(\frac{\frac{1}{5}\left(\frac{1}{5}^{n}-1\right)}{\frac{1}{5}-1}\right)=lim_{n\rightarrow\infty}\left(1-\frac{1}{2}^{n}\right)+\left(\frac{1}{\bcancel{5}}\cdot\frac{\bcancel{5}}{4}\left(1-\frac{1}{5}^{n}\right)\right)=\frac{5}{4}
+=lim_{n\rightarrow\infty}\left[\left(\frac{1}{2}+...+\frac{1}{2^{n}}\right)+\left(\frac{1}{5}+....+\frac{1}{5^{n}}\right)\right]=lim_{n\rightarrow\infty}\left(\frac{\frac{1}{2}\left(\frac{1}{2}^{n}-1\right)}{\frac{1}{2}-1}\right)+\left(\frac{\frac{1}{5}\left(\frac{1}{5}^{n}-1\right)}{\frac{1}{5}-1}\right)=
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=lim_{n\rightarrow\infty}\left(1-\frac{1}{2}^{n}\right)+\left(\frac{1}{\bcancel{5}}\cdot\frac{\bcancel{5}}{4}\left(1-\frac{1}{5}^{n}\right)\right)=\frac{5}{4}
 \]
 
 \end_inset
@@ -696,15 +720,57 @@ lim_{n\rightarrow\infty}\frac{2^{n+1}+3^{n}}{2^{n}+3^{n+1}}=lim_{n\rightarrow\in
 \begin_layout Enumerate
 \begin_inset Formula 
 \[
-lim_{n\rightarrow\infty}\left(\frac{2^{n}+4^{n}}{2\cdot9^{n}-8^{n}}\right)=lim_{n\rightarrow\infty}\frac{2^{n}+2^{2n}}{2\cdot3^{2n}-2^{2n+n}}=lim_{n\rightarrow\infty}\frac{2^{n}+2^{2n}}{2\cdot3^{2n}-2^{2n}\cdot2^{n}}=lim_{n\rightarrow\infty}\frac{2^{2n}\left(\frac{1}{2^{n}}+1\right)}{2^{2n}\left(2\cdot\frac{9}{4}^{n}-2^{n}\right)}=
+lim_{n\rightarrow\infty}\left(\frac{2^{n}+4^{n}}{2\cdot9^{n}-8^{n}}\right)=lim_{n\rightarrow\infty}\frac{9^{n}\left(\frac{2}{9}^{n}+\frac{4}{9}^{n}\right)}{9^{n}\left(2-\frac{8}{9}^{n}\right)}=\frac{0}{2}=0
 \]
 
 \end_inset
 
 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+חשב את הגבולות
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
 \begin_inset Formula 
 \[
-=lim_{n\rightarrow\infty}\left(\frac{\frac{1}{2^{n}}+1}{2\cdot\left(\frac{9}{4}\right)^{n}-2^{n}}\right)="\frac{1}{\infty}"=0
+0=lim_{n\rightarrow\infty}\frac{-n}{n^{2}+1}\leq lim_{n\rightarrow\infty}\frac{nsin\left(n\right)}{n^{2}+1}\leq lim_{n\rightarrow\infty}\frac{n}{n^{2}+1}=\frac{n(1)}{n(n+\frac{1}{n})}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula 
+\[
+0=lim_{n\rightarrow\infty}\frac{-1}{2^{n}}\leq lim_{n\rightarrow\infty}\frac{cosn}{2^{n}}\leq lim_{n\rightarrow\infty}\frac{1}{2^{n}}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula 
+\[
+4=lim_{n\rightarrow\infty}\sqrt[n]{4^{n}}\leq lim_{n\rightarrow\infty}\sqrt[n]{3^{n}+4^{n}}\leq lim_{n\rightarrow\infty}\sqrt[n]{2\cdot4^{n}}=4
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula 
+\[
+\frac{}{}\leq lim_{n\rightarrow\infty}\frac{\sqrt[3]{n^{2}}cos(n!)}{n+1}\leq lim_{n\rightarrow\infty}\frac{n^{\frac{2}{3}}}{n+1}=lim_{n\rightarrow\infty}\frac{n^{\frac{2}{3}}\cdot1}{n^{\frac{2}{3}}\left(n^{\frac{1}{3}}+\frac{1}{n^{\frac{2}{3}}}\right)}=0
 \]
 
 \end_inset

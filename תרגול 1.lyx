@@ -657,7 +657,7 @@ lim_{n\rightarrow\infty}\left(\frac{1+3+5....+(2n+1)}{n+1}-\frac{2n+1}{2}\right)
 
 \end_inset
 
-
+ 
 \begin_inset Formula 
 \[
 =lim_{n\rightarrow\infty}\frac{2n^{2}-(2n+1)(n+1)}{2(n+1)}=lim_{n\rightarrow\infty}\frac{-3n-1}{2n+2}=-\frac{3}{2}
@@ -721,6 +721,67 @@ lim_{n\rightarrow\infty}\frac{2^{n+1}+3^{n}}{2^{n}+3^{n+1}}=lim_{n\rightarrow\in
 \begin_inset Formula 
 \[
 lim_{n\rightarrow\infty}\left(\frac{2^{n}+4^{n}}{2\cdot9^{n}-8^{n}}\right)=lim_{n\rightarrow\infty}\frac{9^{n}\left(\frac{2}{9}^{n}+\frac{4}{9}^{n}\right)}{9^{n}\left(2-\frac{8}{9}^{n}\right)}=\frac{0}{2}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+חשב את הגבולות
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Formula 
+\[
+0=lim_{n\rightarrow\infty}\frac{-n}{n^{2}+1}\leq lim_{n\rightarrow\infty}\frac{nsin\left(n\right)}{n^{2}+1}\leq lim_{n\rightarrow\infty}\frac{n}{n^{2}+1}=\frac{n(1)}{n(n+\frac{1}{n})}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula 
+\[
+0=lim_{n\rightarrow\infty}\frac{-1}{2^{n}}\leq lim_{n\rightarrow\infty}\frac{cosn}{2^{n}}\leq lim_{n\rightarrow\infty}\frac{1}{2^{n}}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula 
+\[
+4=lim_{n\rightarrow\infty}\sqrt[n]{4^{n}}\leq lim_{n\rightarrow\infty}\sqrt[n]{3^{n}+4^{n}}\leq lim_{n\rightarrow\infty}\sqrt[n]{2\cdot4^{n}}=4
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula 
+\[
+0=lim_{n\rightarrow\infty}\frac{-n^{\frac{2}{3}}}{n+1}\leq lim_{n\rightarrow\infty}\frac{\sqrt[3]{n^{2}}cos(n!)}{n+1}\leq lim_{n\rightarrow\infty}\frac{n^{\frac{2}{3}}}{n+1}=lim_{n\rightarrow\infty}\frac{n^{\frac{2}{3}}\cdot1}{n^{\frac{2}{3}}\left(n^{\frac{1}{3}}+\frac{1}{n^{\frac{2}{3}}}\right)}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula 
+\[
+lim_{n\rightarrow\infty}\sqrt[n]{2^{n}+\left(-1\right)^{n}+7^{n}}=lim_{n\rightarrow\infty}\sqrt[n]{7^{n}\left(\frac{2}{7}^{n}-\frac{1}{7}^{n}+1\right)}=7
 \]
 
 \end_inset
